@@ -1,0 +1,9 @@
+2. a) Aplikasi terjadi error berupa crash
+      - Penyebab	: nilai operand tidak memiliki nilai yang valid
+      - Cara mengatasi	: menggunakan exception handling
+   b) Aplikasi terjadi error berupa crash
+      - Penyebab	: nilai operand tidak memiliki nilai yang valid
+      - Cara mengatasi	: menggunakan exception handling
+   c) Aplikasi berjalan dengan baik
+
+3. Setelah melakukan debugging pada 2 breakpoint yang sudah saya buat, saya dapat mengetahui detail setiap kode yang saya ketik dengan menggunakan langkah-langkah debugging seperti step-over, step-into, step-out, dan resume. Sehingga, dapat disimpulkan bahwa proses debugging sangat membantu ketika developer ingin mencari bug yang terdapat dalam aplikasi yang telah dibuat, karena developer dapat melihat apa saja yang terjadi pada setiap baris kode dalam aplikasi tersebut.
