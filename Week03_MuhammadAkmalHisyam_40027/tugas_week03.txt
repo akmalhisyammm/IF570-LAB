@@ -1,0 +1,6 @@
+Kesimpulan dari hasil pengujian app:
+- Terjadinya penambahan kata ketika tombol `fab` di klik disebabkan oleh adanya method `fab.setOnClickListener` dan menyimpannya dalam linked list `mDaftarKata`
+- Kata yang ditambahkan dapat sesuai urutan karena didapatkan dari ukuran linked list `mDaftarKata` menggunakan method `size()`
+- Setiap tombol `fab` di klik, maka akan langsung scroll otomatis ke kata yang baru ditambahkan karena adanya method `smoothScrollToPosition()`
+- Pemilihan item dapat terjadi karena adanya event listener `setOnClickListener()` dalam class `KataViewHolder` yang terdapat pada class `DaftarKataAdapter`
+- Class KataViewHolder dapat mengetahui suatu event click telah terjadi karena adanya method `notifyDataSetChanged()`
