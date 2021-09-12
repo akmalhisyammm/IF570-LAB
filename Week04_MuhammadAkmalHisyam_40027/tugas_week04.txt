@@ -1,0 +1,8 @@
+Kesimpulan dari pengujian app:
+- Pengiriman data dari satu activity ke activity lainnya dapat terjadi karena adanya fitur Intent.
+- Intent merupakan mekanisme untuk melakukan sebuah action dan komunikasi antar komponen aplikasi.
+- Terdapat 2 jenis Intent, yaitu Intent Implicit dan Explicit.
+- Intent Implicit berfungsi untuk melakukan perpindahan dari activity menuju ke aplikasi internal smartphone. Contohnya seperti membuka browser, dial, dan kamera.
+- Intent Explicit berfungsi untuk melakukan perpindahan dari satu activity ke activity lainnya.
+- Untuk mengirim data ke activity lain yaitu dengan menggunakan method `putExtra()`.
+- Untuk menerima data dari activity lain yaitu dengan menggunakan method `getExtras()`.
