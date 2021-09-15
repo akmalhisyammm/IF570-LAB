@@ -1,0 +1,5 @@
+Kesimpulan dari hasil pengujian app:
+- User dapat menggambar di dalam aplikasi dengan menggunakan `Canvas`.
+- User dapat memilih bentuk yang diinginkan dengan memilih pada `RadioButton` (rect, oval, line, dan path).
+- User dapat mengatur tingkat intensitas warna yang diinginkan dengan menggunakan kombinasi warna pada `SeekBar` (red, green, dan blue).
+- User dapat membersihkan kanvas yang sudah berisi gambar dengan menggunakan fitur clear (klik tombol yang berada di atas kiri view).
