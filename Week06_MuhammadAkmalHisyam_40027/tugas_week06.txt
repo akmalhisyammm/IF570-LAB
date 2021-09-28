@@ -1,0 +1,7 @@
+Kesimpulan dari hasil pengujian app:
+- Project A:
+  Ketika layar disentuh, maka akan muncul efek pada layar yang disentuh tersebut berbentuk lingkaran yang membesar kemudian mengecil.
+- Project B:
+  Ketika gambar kuda disentuh, maka akan membuat efek bergerak seperti kuda yang sedang berlari. Efek tersebut berasal dari kumpulan gambar kuda yang diputar dengan cepat.
+- Project C:
+  Ketika tombol spring disentuh, maka tombol tersebut akan menampilkan efek memantul seperti pegas. Sedangkan ketika tombol fling disentuh, maka akan menampilkan efek mengambang berputar-putar.
