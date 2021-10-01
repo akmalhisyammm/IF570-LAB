@@ -1,0 +1,10 @@
+Kesimpulan dari hasil pengujian app:
+1. Project A:
+  - Ketika tombol foto atau video ditekan, maka tombol tersebut akan men-trigger event click melalui method `onClickListener`.
+  - Untuk foto, method `onClickListener` akan memanggil perintah `ACTION_IMAGE_CAPTURE` untuk memanggil activity `takePictureIntent` dengan `REQUEST_IMAGE_CAPTURE`.
+  - Untuk video juga akan melakukan hal yang sama seperti foto, tetapi dengan menggunakan perintah `ACTION_VIDEO_CAPTURE` dan `REQUEST_VIDEO_CAPTURE`.
+
+2. Project B:
+  - Daftar video di galeri dapat terbentuk dengan menggunakan `RecyclerView`.
+  - Class `SumberVideo` membutuhkan interface Serializable karena class tersebut akan digunakan untuk melakukan passing object ke activity.
+  - Terdapat `LinkedList` untuk menampung `daftarVideo` yang akan digunakan untuk mengisi daftar video di galeri.
