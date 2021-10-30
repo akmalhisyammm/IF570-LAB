@@ -1,0 +1,11 @@
+Kesimpulan dari hasil pengujian app:
+1. Project A:
+   - RadioButton Temporary berfungsi untuk menyimpan file di cache menggunakan method `getCacheDir`.
+   - RadioButton Internal berfungsi untuk menyimpan file di penyimpanan internal menggunakan method `getFilesDir`.
+   - RadioButton External berfungsi untuk menyimpan file di penyimpanan eksternal menggunakan method `getExternalFilesDir`.
+   - Jika file disimpan menggunakan RadioButton Temporary, maka ketika aplikasi di-close akan masuk ke dalam method `onDestroy` dan file akan dihapus.
+
+2. Project B:
+   - Ketika Button Hitam, Merah, Biru, atau Hijau di-klik, maka akan men-trigger method `gantiBackground` untuk mengganti warna background dari `TextView`.
+   - Ketika Button Tambah di-klik, maka akan men-trigger method `tambahCounter` untuk menambahkan angka yang terdapat pada `TextView`.
+   - Ketika Button Reset di-klik, maka akan men-trigger method `reset` untuk melakukan reset warna background dan angka yang sudah di modifikasi sebelumnya.
