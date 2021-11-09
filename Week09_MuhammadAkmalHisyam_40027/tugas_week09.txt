@@ -1,0 +1,6 @@
+Kesimpulan dari hasil pengujian app:
+- Ketika tombol FAB di-klik, maka intent akan mengarahkan ke `DetilActivity`.
+- Pada `DetilActivity`, terdapat `EditText` untuk mengisi NIM, Nama Lengkap, Email, dan Nomor HP.
+- Ketika tombol Simpan di-klik, maka data tersebut akan disimpan di `MahasiswaRoomDatabase` pada SQLite menggunakan Room Persistence Library.
+- Jika terdapat data yang sudah tersimpan di database, maka `MainActivity` akan menampilkan data mahasiswa.
+- Jika tombol menu yang berada di atas kanan di-klik, maka akan menampilkan menu Hapus Semua untuk menghapus semua data yang terdapat pada tabel mahasiswa menggunakan method `DeleteAll` pada `MahasiswaDAO`.
