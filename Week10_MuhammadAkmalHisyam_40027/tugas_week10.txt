@@ -1,0 +1,4 @@
+Kesimpulan dari hasil pengujian app:
+- AsyncTask digunakan apabila ada aksi yang memakan waktu lama yang perlu dijalankan di background dan perlu untuk mengubah aspek UI.
+- AsyncTaskLoader merupakan sebuah loader untuk menampilkan loading progress bar dari AsyncTask.
+- Services merupakan komponen pada Android yang bekerja di background tanpa memerlukan adanya interaksi dengan user.
