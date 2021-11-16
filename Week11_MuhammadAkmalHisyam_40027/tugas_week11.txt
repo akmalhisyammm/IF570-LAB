@@ -1,0 +1,5 @@
+Kesimpulan dari hasil pengujian app:
+- Web service merupakan aplikasi yang berisi sekumpulan basis data (database) dan perangkat lunak (software) yang diakses secara remote oleh piranti dengan perantara tertentu.
+- Library Retrofit digunakan untuk mengubah API dalam protokol HTTP menjadi sebuah Java interface agar dapat digunakan oleh class dengan mudah tanpa perlu menggunakan class HTTPURLConnection yang cukup rumit.
+- Retrofit akan melakukan parse JSON atau XML data dari API menjadi sebuah POJO (Plain Old Java Object) yang dapat langsung diakses melalui kode yang akan menggunakan API-nya secara langsung.
+- Class PostModel berfungsi untuk penampung hasil return dari API, sedangkan Interface PostServices berfungsi untuk mendapatkan data dari API tersebut.
