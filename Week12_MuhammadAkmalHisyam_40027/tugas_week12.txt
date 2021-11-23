@@ -1,0 +1,10 @@
+Kesimpulan dari hasil pengujian app:
+1. Project A
+   - Ketika aplikasi dijalankan, maka akan ditampilkan daftar sensor yang tersedia pada perangkat menggunakan `TextView`.
+   - Pada aplikasi ini, `SensorManager` digunakan untuk mendapatkan list dari semua tipe sensor yang tersedia pada perangkat tersebut.
+
+2. Project B
+   - Aplikasi ini menampilkan 2 nilai sensor yaitu Light Sensor dan Proximity Sensor.
+   - Pada aplikasi ini, `SensorManager` digunakan untuk mendapatkan sensor secara spesifik dengan menggunakan method `getDefaultSensor`.
+   - Pada saat aplikasi dijalankan (onStart), maka akan dilakukan register listener pada sensor untuk mendeteksi perubahan nilai pada sensor.
+   - 2 nilai sensor yang sebelumnya telah ditampilkan menggunakan `TextView` akan berubah nilainya menjadi nilai dari sensor tersebut melalui method `onSensorChanged`.
