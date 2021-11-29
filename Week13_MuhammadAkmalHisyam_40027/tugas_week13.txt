@@ -1,0 +1,5 @@
+Kesimpulan dari hasil pengujian app:
+- Ketika tombol zoom-in/zoom-out di tekan, maka map akan melakukan zoom-in/zoom-out.
+- Ketika tombol tambah ditekang, maka akan diarahkan ke activity `TambahObject` yang berfungsi untuk menambahkan objek pada map.
+- Pada activity `TambahObject`, dapat menambahkan objek baru pada map seperti marker, radius, polyline, dan polygon.
+- Ketika objek yang telah ditambahkan melalui activity `TambahObject` berhasil disimpan, maka objek tersebut akan ditampilkan pada map utama beserta dengan keterangannya.
